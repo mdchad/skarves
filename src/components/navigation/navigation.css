@@ -1,0 +1,18 @@
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.nav {
+    display: flex;
+    align-items: center; 
+}
+
+li {
+    margin: 0 3em;
+    list-style: none;  
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
