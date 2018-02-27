@@ -9,6 +9,7 @@ const Navigation = () => (
         <Router>
             <div>
                 <ul className='nav'>
+                    <li></li>
                     <li>
                         <Link to="/" className="link">Home</Link>
                     </li>
@@ -18,6 +19,7 @@ const Navigation = () => (
                     <li>
                         <Link to="/products" className="link">Products</Link>
                     </li>
+                    <li></li>
                 </ul>
 
                 <hr />

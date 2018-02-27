@@ -13,6 +13,7 @@
     "lint"
   ],
   "scripts": {
+    "lint": "eslint ./ --cache --ignore-pattern .gitignore",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
