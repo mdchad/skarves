@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './navigation.css'
-import Home from '../home/home'
-import New from '../new/new'
-import Products from '../products/products'
+import { Home, New, Products } from '../main/main'
+
 
 
 const Navigation = () => (
         <Router>
             <div>
                 <ul className='nav'>
+                    <li></li>
                     <li>
                         <Link to="/" className="link">Home</Link>
                     </li>
@@ -19,6 +19,7 @@ const Navigation = () => (
                     <li>
                         <Link to="/products" className="link">Products</Link>
                     </li>
+                    <li></li>
                 </ul>
 
                 <hr />

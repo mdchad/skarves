@@ -1,9 +1,10 @@
 body {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Helvetica', Courier, monospace
 }
 
 .nav {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
     align-items: center; 
 }
 
