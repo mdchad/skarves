@@ -14,9 +14,9 @@ const Navigation = () => (
                 <div className="icon">
                     <div></div>
                     <img src={logo} alt="logo"/>
-                    <img src={bag} alt="logo"/>
-                    <img src={search} alt="logo"/>
-                    <img src={wishlist} alt="logo"/>
+                    <img className="svg-class" src={bag} alt="logo"/>
+                    <img className="svg-class" src={search} alt="logo"/>
+                    <img className="svg-class" src={wishlist} alt="logo"/>
                 </div>
                 <ul className="nav">
                     <li></li>
