@@ -1,0 +1,31 @@
+body {
+    font-family: 'Helvetica', Courier, monospace
+}
+
+.nav {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center; 
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.icon {
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 3rem 3rem 3rem;
+}
+
+li {
+    margin: 0 3em;
+    list-style: none;  
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.svg-class {
+    padding-top: 5em; 
+    height: 20px;
+}
