@@ -1,16 +1,17 @@
 import React from 'react';
-import Carousel from 'nuka-carousel';
+import './home.css'
 
-const Home = () => (
-        <div>
+const Home = () => {
+    return (
+        <div className="container">
             <h2>Home</h2>
-            <Carousel>
-                <img src="http://via.placeholder.com/1000x300"/>
-                <img src="http://via.placeholder.com/1000x300"/>
-                <img src="http://via.placeholder.com/1000x300"/>
-                <img src="http://via.placeholder.com/1000x300"/>
-            </Carousel>
+                    <img src="http://via.placeholder.com/1000x300" alt="product"/>
+                    <img src="http://via.placeholder.com/1000x300" alt="product"/>
+                    <img src="http://via.placeholder.com/1000x300" alt="product"/>
+                    <img src="http://via.placeholder.com/1000x300" alt="product"/>
+
         </div>
     )
+}
 
 export default Home
