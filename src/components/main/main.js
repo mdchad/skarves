@@ -1,12 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import './main.css'
 import { Home, New, Products, Promo, Contact, About } from '../pages/pages'
 import logo from "../../asset/logo.png"
 import bag from "../../asset/loaded-bag.svg"
 import search from "../../asset/search.svg"
 import wishlist from "../../asset/wishlist.svg"
-
 
 const Main = () => (
         <Router>
