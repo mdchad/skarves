@@ -46,9 +46,6 @@ const Main = () => (
                 <Route path="/promo" component={Promo} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/about" component={About} />
-                {/* <Route path="/promo" component={Promo} /> */}
-                {/* <Route path="/contact" component={Contact} /> */}
-                {/* <Route path="/about" component={About} /> */}
             </div>
         </Router>
     )
